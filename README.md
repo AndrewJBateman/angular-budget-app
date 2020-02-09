@@ -1,27 +1,81 @@
-# AngularBudgetApp
+# Angular Budget App - Tutorial Code by Devstackr
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+* Angular tutorial app to add items to a budget list. 
 
-## Development server
+* Balance shown at top. Inputs section where an item can be added - positive numbers are income and negative numbers are expenses - shown in separate columns.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Clicking on a budget item opens a modal where the item amount and description can be edited.
 
-## Code scaffolding
+* All code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) from Youtube Tutorial [Angular - Build a Budget Calculator Application](https://www.youtube.com/watch?v=sU4z4Ti-8OQ&t=278s).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Table of contents
 
-## Build
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## General info
 
-## Running unit tests
+* Youtube tutorial uses Angular 7. I used Angular 8. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshots
 
-## Running end-to-end tests
+![Angular page](./img/budget.png)
+![Angular page](./img/modal.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies
 
-## Further help
+* [Angular v8.2.14](https://angular.io/)
+* [Angular material v8.2.3](https://material.angular.io/)
+* [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
+* [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Setup
+
+* To start the server on _localhost://4200_ type: 'ng serve'
+
+## Code Examples
+
+* Modal created using Angular MatDialog service.
+
+```typescript
+onCardClicked(item: BudgetItem) {
+  const dialogRef = this.dialog.open(EditItemModalComponent, {
+    width: '580px',
+    data: item
+  });
+
+  dialogRef.afterClosed().subscribe(result => {
+    if (result) {
+      this.update.emit({
+        old: item,
+        new: result
+      });
+    }
+  })
+}
+```
+
+## Features
+
+* [Angular Material Dialog](https://material.angular.io/components/dialog/overview) modal used to edit budget items.
+
+## Status & To-do list
+
+* Status: Completed, tested and fully working.
+
+* To-do: add commenting
+
+## Inspiration
+
+* [Angular - Build a Budget Calculator Application](https://www.youtube.com/watch?v=sU4z4Ti-8OQ&t=278s)
+* [Devstackr: Github repo](https://github.com/Devstackr/budget-app-angular)
+
+## Contact
+
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
