@@ -5,7 +5,8 @@
       <div class="field is-narrow">
         <p class="control">
           <input 
-            type="number" required
+            type="number"
+            required
             name="amount"
             style="width: 100px"
             class="input"
@@ -17,8 +18,9 @@
       <div class="field">
         <p class="control">
           <input
-            type="text" required
-            name="decription"
+            type="text"
+            required
+            name="description"
             class="input"
             placeholder="Description"
             [ngModel]="item.description">
@@ -26,7 +28,11 @@
       </div>
 
       <div class="field is-narrow">
-        <button type="submit" class="button is-primary" [disabled]="!itemForm.valid">Add</button>
+        <button
+          type="submit"
+          class="button is-primary"
+          [disabled]="!itemForm.valid">Add
+        </button>
       </div>
 
     </div>
