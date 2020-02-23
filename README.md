@@ -31,7 +31,7 @@
 ## Technologies
 
 * [Angular v9.1.0](https://angular.io/)
-* [Angular material v8.2.3](https://material.angular.io/)
+* [Angular Material v9.0.0](https://material.angular.io/)
 * [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
 * [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
 
@@ -64,10 +64,11 @@ onCardClicked(item: BudgetItem) {
 ## Features
 
 * [Angular Material Dialog](https://material.angular.io/components/dialog/overview) modal used to edit budget items.
+* Updated to latest version of Angular 9.
 
 ## Status & To-do list
 
-* Status: Completed, tested and fully working.
+* Status: Completed, updated to Angular 9, retested and fully working.
 
 * To-do: add commenting
 
