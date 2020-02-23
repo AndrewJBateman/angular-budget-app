@@ -21,7 +21,7 @@
 
 ## General info
 
-* Youtube tutorial uses Angular 7. I used Angular 8. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
+* Youtube tutorial uses Angular 7. I used Angular 8 then upgraded to 9. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
 ## Screenshots
 
@@ -30,7 +30,7 @@
 
 ## Technologies
 
-* [Angular v8.2.14](https://angular.io/)
+* [Angular v9.1.0](https://angular.io/)
 * [Angular material v8.2.3](https://material.angular.io/)
 * [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
 * [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
