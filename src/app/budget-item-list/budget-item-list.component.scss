@@ -1,4 +1,4 @@
-@import '../../../main-styles.scss';
+@import "../../../main-styles.scss";
 
 .budget-items-section {
   display: flex;
@@ -13,14 +13,15 @@
     height: 100%;
     width: 100%;
 
-    .income-column, .expenses-column {
+    .income-column,
+    .expenses-column {
       display: flex;
       flex-direction: column;
-      flex-basis: 0; // columns same size, whatever
+      flex-basis: 0; // columns same size
       flex-grow: 1;
 
       h1 {
-        font-family: 'Lato';
+        font-family: "Lato";
         font-size: 24px;
         font-weight: 900;
         text-transform: uppercase;
@@ -31,7 +32,6 @@
         flex-direction: column;
         margin-top: 20px;
       }
-
     }
 
     .income-column {
@@ -43,11 +43,9 @@
     }
 
     .expenses-column {
-      
       h1 {
         color: $red;
       }
     }
-
   }
 }

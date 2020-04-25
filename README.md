@@ -1,45 +1,45 @@
-# Angular Budget App - Tutorial Code by Devstackr
+# :zap: Angular Budget App - Tutorial Code by Devstackr
 
-* Angular tutorial app to add items to a budget list. 
-
+* Angular tutorial app to add items to a budget list.
 * Balance shown at top. Inputs section where an item can be added - positive numbers are income and negative numbers are expenses - shown in separate columns.
-
 * Clicking on a budget item opens a modal where the item amount and description can be edited.
-
 * All code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) from Youtube Tutorial [Angular - Build a Budget Calculator Application](https://www.youtube.com/watch?v=sU4z4Ti-8OQ&t=278s).
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Budget App - Tutorial Code by Devstackr](#zap-angular-budget-app---tutorial-code-by-devstackr)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 * Youtube tutorial uses Angular 7. I used Angular 8 then upgraded to 9. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Angular page](./img/budget.png)
 ![Angular page](./img/modal.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v9.1.0](https://angular.io/)
-* [Angular Material v9.0.0](https://material.angular.io/)
+* [Angular v9](https://angular.io/)
+* [Angular Material v9](https://material.angular.io/)
 * [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
-* [rxjs v6.4.0](https://angular.io/guide/rx-library) reactive programming library
+* [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
-## Setup
+## :floppy_disk: Setup
 
 * To start the server on _localhost://4200_ type: 'ng serve'
 
-## Code Examples
+## :computer: Code Examples
 
 * Modal created using Angular MatDialog service.
 
@@ -61,22 +61,21 @@ onCardClicked(item: BudgetItem) {
 }
 ```
 
-## Features
+## :cool: Features
 
 * [Angular Material Dialog](https://material.angular.io/components/dialog/overview) modal used to edit budget items.
 * Updated to latest version of Angular 9.
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
-* Status: Completed, updated to Angular 9, retested and fully working.
+* Status: Completed, updated to Angular 9, all dependencies updated, retested and fully working. This is working in desktop mode but does not resize correctly to mobile size.
+* To-do: nothing
 
-* To-do: add commenting
-
-## Inspiration
+## :clap: Inspiration
 
 * [Angular - Build a Budget Calculator Application](https://www.youtube.com/watch?v=sU4z4Ti-8OQ&t=278s)
 * [Devstackr: Github repo](https://github.com/Devstackr/budget-app-angular)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
