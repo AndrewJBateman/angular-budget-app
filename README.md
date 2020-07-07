@@ -32,7 +32,7 @@
 
 * [Angular v10](https://angular.io/)
 * [Angular Material v9](https://material.angular.io/)
-* [Bulma v0.8.0](https://bulma.io/documentation/) CSS framework
+* [Bulma v0.9.0](https://bulma.io/documentation/) CSS framework
 * [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
