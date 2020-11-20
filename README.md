@@ -1,6 +1,6 @@
 # :zap: Angular Budget App - Tutorial Code by Devstackr
 
-* Angular 10 tutorial app to add items to a budget list.
+* Angular 11 tutorial app to add items to a budget list.
 * Balance shown at top. Inputs section where an item can be added - positive numbers are income and negative numbers are expenses - shown in separate columns.
 * Clicking on a budget item opens a modal where the item amount and description can be edited.
 * All code by [Devstackr](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A/featured) from Youtube Tutorial [Angular - Build a Budget Calculator Application](https://www.youtube.com/watch?v=sU4z4Ti-8OQ&t=278s).
@@ -21,7 +21,7 @@
 
 ## :books: General info
 
-* Youtube tutorial uses Angular 7. I used Angular 8 then upgraded to 9 then 10. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
+* Youtube tutorial uses Angular 7. I used Angular 8 then upgraded to 11. [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
 ## :camera: Screenshots
 
@@ -30,9 +30,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
-* [Angular Material v10](https://material.angular.io/)
-* [Bulma v0.9.0](https://bulma.io/documentation/) CSS framework
+* [Angular v11](https://angular.io/)
+* [Angular Material v11](https://material.angular.io/)
+* [Bulma v0.9.1](https://bulma.io/documentation/) CSS framework
 * [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
