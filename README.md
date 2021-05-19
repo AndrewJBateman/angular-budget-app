@@ -40,7 +40,7 @@
 
 * [Angular v12](https://angular.io/)
 * [Angular Material v12](https://material.angular.io/)
-* [Bulma v0.9.1](https://bulma.io/documentation/) CSS framework
+* [Bulma v0.9.2](https://bulma.io/documentation/) CSS framework
 * [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
@@ -75,7 +75,7 @@ onCardClicked(item: BudgetItem) {
 
 ## :clipboard: Status & To-do list
 
-* Status: Completed, updated to Angular 10, all dependencies updated, retested and fully working. This is working in desktop mode but does not resize correctly to mobile size.
+* Status: Completed, updated may 2021. This is working in desktop mode but does not resize correctly to mobile size.
 * To-do: nothing
 
 ## :clap: Inspiration
