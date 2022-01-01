@@ -28,7 +28,7 @@
 
 ## :books: General info
 
-* Youtube tutorial uses Angular 7. I used Angular 8 then upgraded to 11 then 12.
+* Youtube tutorial uses Angular v7, I upgraded to v13.
 * [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
 ## :camera: Screenshots
@@ -38,13 +38,14 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [Angular Material v12](https://material.angular.io/)
-* [Bulma v0.9.2](https://bulma.io/documentation/) CSS framework
-* [rxjs v6](https://angular.io/guide/rx-library) reactive programming library
+* [Angular v13](https://angular.io/)
+* [Angular Material v13](https://material.angular.io/)
+* [Bulma v0.9.3](https://bulma.io/documentation/) CSS framework
+* [rxjs v7](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
 
+* `npm i` to install dependencies
 * To start the server on _localhost://4200_ type: 'ng serve'
 
 ## :computer: Code Examples
@@ -75,7 +76,7 @@ onCardClicked(item: BudgetItem) {
 
 ## :clipboard: Status & To-do list
 
-* Status: Completed, updated may 2021. This is working in desktop mode but does not resize correctly to mobile size.
+* Status: Working in desktop mode but does not resize correctly to mobile size.
 * To-do: nothing
 
 ## :clap: Inspiration
