@@ -14,23 +14,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MainPageComponent,
-    AddItemFormComponent,
-    BudgetItemListComponent,
-    BudgetItemCardComponent,
-    EditItemModalComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    BrowserAnimationsModule,
-    MatDialogModule
-  ],
-  providers: [],
-  entryComponents: [EditItemModalComponent],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        MainPageComponent,
+        AddItemFormComponent,
+        BudgetItemListComponent,
+        BudgetItemCardComponent,
+        EditItemModalComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule,
+        BrowserAnimationsModule,
+        MatDialogModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
