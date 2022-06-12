@@ -28,7 +28,7 @@
 
 ## :books: General info
 
-* Youtube tutorial uses Angular v7, I upgraded to v13.
+* Youtube tutorial uses Angular v7 upgraded to v14.
 * [Angular material](https://material.angular.io/) installation is now much easier than as shown in the video.
 
 ## :camera: Screenshots
@@ -38,9 +38,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
-* [Angular Material v13](https://material.angular.io/)
-* [Bulma v0.9.3](https://bulma.io/documentation/) CSS framework
+* [Angular v14](https://angular.io/)
+* [Angular Material v14](https://material.angular.io/)
+* [Bulma v0.9.4](https://bulma.io/documentation/) CSS framework
 * [rxjs v7](https://angular.io/guide/rx-library) reactive programming library
 
 ## :floppy_disk: Setup
@@ -77,7 +77,7 @@ onCardClicked(item: BudgetItem) {
 ## :clipboard: Status & To-do list
 
 * Status: Working in desktop mode but does not resize correctly to mobile size.
-* To-do: nothing
+* To-do: Nothing
 
 ## :clap: Inspiration
 
