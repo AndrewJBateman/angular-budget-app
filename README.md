@@ -38,8 +38,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/)
-* [Angular Material v14](https://material.angular.io/)
+* [Angular v15](https://angular.io/)
+* [Angular Material v15](https://material.angular.io/)
 * [Bulma v0.9.4](https://bulma.io/documentation/) CSS framework
 * [rxjs v7](https://angular.io/guide/rx-library) reactive programming library
 
@@ -47,6 +47,7 @@
 
 * `npm i` to install dependencies
 * To start the server on _localhost://4200_ type: 'ng serve'
+* `npm run build` to create build files in `docs` folder
 
 ## :computer: Code Examples
 
